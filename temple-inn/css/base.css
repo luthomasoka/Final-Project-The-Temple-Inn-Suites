@@ -1,0 +1,530 @@
+body {
+    font-family: Montserrat, sans-serif;
+    color: brown;
+    font-size: 16px;
+    background-color: azure;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: .5rem;
+  }
+
+.logo-img img {width: 100%;}
+
+header {
+    display: grid;
+    grid-template-columns: 180px auto;
+    align-items: center;
+    background-color: #124E78;
+}
+
+.navigation li:first-child {display: block;}
+
+.navigation li {
+    display:  none;
+    margin-left: 25px;
+}
+
+.responsive li {display: block;}
+
+.navigation a:hover, #hero-site-name a:hover {
+  color: #124E78;
+  background-color: azure;
+  padding: .9rem;
+  transform: translateY(-8px);
+  transition: all 0.25s;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+.ham span:nth-child(1) {display: block;}
+
+.ham span:nth-child(2) {display: none;}
+
+.responsive .ham span:nth-child(1) {display: none;}
+
+.responsive .ham span:nth-child(2) {display: block;}
+
+h1, h2 {
+    color: #d3a28b;
+    text-align: center;
+  }
+
+a {color: azure;}
+
+picture img {
+    width: 100%;
+}
+
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80%;
+}
+
+.banner-img {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    margin-bottom: 0;
+}
+
+#action {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 1em 0;
+    width: 80%;
+    text-align: center;
+    height: 60%;
+}
+  
+#action button {
+    width: 10em;
+    background-color: #A44A3F;
+    font-size: 1.2em;
+}
+
+ul {
+    padding: 0;
+}
+
+#action li {
+    font-size: 1rem;
+    padding: .5em;
+    line-height: 1em;
+    text-align: center;
+    list-style: none;
+
+}
+
+#action label {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    width: .3rem;
+}
+
+#action p {
+    font-size: .9rem;
+    font-weight: bold;
+    padding: .5em;
+    color: #A44A3F;
+    background-color: initial;
+    line-height: 2em;
+    margin: 0;
+    font-style: oblique;
+}
+
+section {
+    margin: 1rem 0;
+}
+
+#grid, #list {
+    border: 2px solid #FB5607;
+    margin-top: .2rem;
+    padding: .5rem;
+    background-color: #FB5607;
+    color: #eee;
+    width: 30%;
+}
+
+#grid:hover, #list:hover {
+    background-color: white;
+    color: #FB5607;
+}
+
+.form-container {
+    background-color: #d59800;
+}
+
+#reservation {
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid #CCC;
+    background-color: darkslategray;
+    box-sizing: border-box;
+    height: 70em;
+    width: 36em;
+  }
+
+#reservation label {
+    margin-top: 2em;
+    margin-bottom: .5em;
+    color: #d59800;
+    display: block;
+    width: fit-content;
+  }
+
+
+
+#reservation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #reservation input, #reservation textarea, #reservation select {
+    font: 1em sans-serif;
+    width: 22em;
+    height: 2em;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+
+  textarea {
+    vertical-align: top;
+    height: 9em;
+  }
+
+  .social {
+    list-style: none;
+    display: flex;
+  }
+
+  #submit-form {
+    background-color: #004F80;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 1.1rem;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+    outline: 0;
+    text-align: center;
+    width: 70%;
+  }
+
+  #submit {
+    background-color: #15172b;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 1.1rem;
+    height: 50px;
+    margin-top: 25px;
+    outline: 2rem;
+    text-align: center;
+    width: 70%;
+  }
+
+.submission {
+height: 80vh;
+}
+
+.submission h2 {
+color: #15172b;
+font-size: 3rem;
+}
+
+.submission h3 {
+    text-align: center;
+}
+
+#first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#first h2 {
+    grid-row: 1;
+    grid-column: 1/3;
+}
+
+#font img {
+    grid-row: 2;
+    grid-column: 2/3;
+    width: 100%;
+    margin-top: 1.2rem;
+}
+
+#second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.reception {
+    grid-row: 1;
+    grid-column: 1/3;
+}
+
+.bride-room {
+    width: 50%;
+}
+
+
+footer {
+    background-color: #585858;
+    margin-top: 1rem;
+    color: azure;
+}
+
+.upper-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper-footer .logo-img {width: 30%;}
+
+.lower-footer {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+
+.lower-footer p {
+    display: inline;
+    align-self: center;
+}
+
+#weather_wrapper{
+	width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    grid-column: 2/3;
+    grid-row: 1;
+}
+.weatherCard{
+	width: 60%;
+	height: 200px;
+	font-family: 'Open Sans';
+	position: relative;
+}
+.currentTemp{
+	width: 80%;
+	height: 100%;
+	background: rgb(41, 41, 41);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.currentWeather{
+	width: 180px;
+	height: 200px;
+	background: rgb(237, 237, 237);
+	margin: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.temp{
+	font-size: 80px;
+	text-align: center;
+	display: inline;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	padding: 20px 0 0;
+  margin-left: 35%;
+}
+
+.location, #deg {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 30px;
+	display: block;
+}
+
+.humidity {
+  text-align: center;
+}
+
+#deg {
+	display: inline;
+  text-align: start;
+  padding-bottom: 20%;
+}
+
+.description {
+  color: #CCC;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.conditions{
+	font-family: weathericons;
+	font-size: 80px;
+	display: block;
+	padding: 20px 0 0;
+	text-align: center;
+}
+.info{
+	width: 180px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: rgb(42, 178, 234);
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+.rain {
+	width: 50%;
+	position: absolute;
+	left: 10px;
+	word-spacing: 60px;
+	top: 3px;
+}
+.rain::before{
+	display: block;
+	content: '\f04e';
+	font-family: weathericons;
+	font-size: 40px;
+	left: 6px;
+	top: -4px;
+	position: absolute;
+}
+.wind {
+	width: 50%;
+	right: -10px;
+	position: absolute;
+	word-spacing: 60px;
+	top: 3px;
+}
+.wind::before{
+	display: block;
+	content: '\f050';
+	font-family: weathericons;
+	font-size: 25px;
+	left: -10px;
+	position: absolute;
+	top: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+  }
+
+  .list section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .list section > * {
+    margin: 0 1rem;
+    text-align: left;
+  }
+
+  .container {
+    margin: 0 auto;
+    border: 1px solid #bbb;
+    padding: 0.5rem;
+    max-width: 960px;
+    background-color: #eee;
+    font-family: "Caveat", sans-serif;
+  }
+
+  .container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    margin: 2rem;
+    border: 4px solid aliceblue;
+    border-radius: 2rem;
+    padding: 1rem;
+  }
+
+  .container section img {
+    height: 100px;
+    width: auto;
+    border-radius: 3rem;
+    border: 2px solid #000;
+  }
+
+  .list section img {
+    display: none;
+  }
+
+
+@media (min-width: 700px) {
+
+    #action {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: rgba(240, 240, 240, 0.8);
+        margin: 1em 3em;
+        text-align: center;
+        text-decoration: none;
+        height: 80%;
+    }
+
+    #action li {
+        font-size: 1rem;
+        padding: 1.1em;
+        line-height: 1em;
+        text-align: center;
+        list-style: none;
+    
+    }
+    
+    #action label {
+        margin-bottom: .1rem;
+        font-weight: bold;
+    }
+    
+    #action p {
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 1em;
+        color: #A44A3F;
+        background-color: initial;
+        line-height: 2em;
+        margin: 0;
+        font-style: oblique;
+    }
+
+    .list section img {
+        display: block;
+      }
+
+      #reception {
+        margin: auto;
+        padding: 2em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        background-color: #A44A3F;
+        box-sizing: border-box;
+        height: 20em;
+        width: 40em;
+        justify-self: center;
+      }
+
+      #reception li {
+        list-style: none;
+        margin-bottom: 2rem;
+      }
+
+      #reception label {
+        color: #CCC;
+        margin-bottom: 3px;
+      }
+
+      #reception input {
+        margin-bottom: 1rem;
+      }
+
+  }

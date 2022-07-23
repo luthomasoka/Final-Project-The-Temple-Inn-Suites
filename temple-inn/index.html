@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>The Temple Inn & Suites</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Assignment website for Lutho Masoka in WDD 230:
+     Web Frontend Development at Brigham Young University - Idaho" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+     <link rel="stylesheet" href="css/base.css" />
+     <link rel="stylesheet" href="css/medium.css" />
+     <link rel="stylesheet" href="css/large.css" />
+     <link rel="shortcut icon" href="suites.ico">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+     <script defer src="js/main.js"></script>
+     <script defer src="js/temp.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <div class="logo-img">
+                <img src="images/The Temple Inn & Suites-logos_white.png" alt="The Temple Inn & Suites-logo"/>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" class="ham"><span>&#9776; Menu</span><span>X Menu</span></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="icon">
+                        <a href="https://www.linkedin.com/">
+                            <img src="images/linkedin-icon.png" alt="LinkedIn logo"/>
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/instagram-icon.png" alt="Instagram logo"/>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <section id="banner">
+                    <picture class="banner-img">
+                        <source media="(max-width: 32.99em)" srcset="images/banner-img-small.jpg">
+                        <source media="(max-width: 63.99em)" srcset="images/banner-img-medium.jpg">
+                        <source media="(min-width: 64em)" srcset="images/banner-img-large.jpg">
+                        <img src="images/banner-img.jpg" alt="hero-image">
+                    </picture>
+                    
+                    <form id="action" action="/thankyou.html" method="get">
+                        <ul>
+                            <p>Home Away from Home</p>
+                            <li>
+                                <label for="destination">Destination:</label>
+                                <select id="destination" name="temple destination">
+                                  <optgroup label="Temple Option">
+                                    <option value="johannesburg">Johanneburg Temple</option>
+                                    <option value="durban">Durban Temple</option>
+                                  </optgroup>
+                                </select>
+                            </li>
+                          <li>
+                            <label for="check-in">Check In:</label>
+                            <input type="date" id="check-in" name="check in date" required>
+                          </li>
+                          <li>
+                            <label for="check-out">Check Out:</label>
+                            <input type="date" id="check-out" name="check out date" required>
+                          </li>
+                          <li>
+                            <button type="submit" id="submit-form">
+                              Submit
+                            </button>
+                          </li>
+                        </ul>
+                    </form>
+                    <div id="weather_wrapper">
+                        <div class="weatherCard">
+                            <div class="currentTemp">
+                                <span class="temp"></span><span id="deg">°C</span>
+                                <span class="location"></span>
+                                <span class="humidity"></span><span> - humidity</span>
+                                <p class="description"></p>
+                            </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="faith">
+                    <h1>Filled with Faith</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nam venenatis quis orci non varius. Morbi in risus ornare diam tincidunt eleifend. 
+                        Fusce pretium pharetra augue eget tempus. Aliquam laoreet, diam et euismod aliquet.
+                    </p>
+                </section>
+                <section id="first">
+                    <h2>Temple Choice</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nam venenatis quis orci non varius. Morbi in risus ornare diam tincidunt eleifend. 
+                        Fusce pretium pharetra augue eget tempus. Aliquam laoreet, diam et euismod aliquet.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <picture id="font">
+                        <img src="images/durban-south-africa-temple-font.jpg" alt="baptismal font" />
+                    </picture>
+                </section>
+                <section id="second">
+                    <picture class="reception">
+                        <img src="images/durban-south-africa-temple-reception.jpg" alt="temple reception area" />
+                    </picture>
+
+                </section>
+                <img src="" alt="" />
+                <section id="third">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nam venenatis quis orci non varius. Morbi in risus ornare diam tincidunt eleifend. 
+                        Fusce pretium pharetra augue eget tempus. Aliquam laoreet, diam et euismod aliquet.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <picture class="bride-room">
+                        <img src="images/durban-south-africa-temple-bride-room.jpg" alt="bride room" />
+                    </picture>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="upper-footer">
+                <div class="logo-img">
+                    <img src="images/The Temple Inn & Suites-logos_white.png" alt="chamber logo"/>
+                </div>
+                <p class="address">4800 Montgomery Ln #300, Bethesda, MD 20814 </p>
+                <p> Weather service brought to you by <a href="https://openweathermap.org/api">OpenWeatherMap API</a>.</p>
+                <ul class="social">
+                    <li class="icon">
+                        <a href="https://www.linkedin.com/">
+                            <img src="images/linkedin-icon.png" alt="LinkedIn logo"/>
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/instagram-icon.png" alt="Instagram logo"/>
+                        </a>
+                    </li>
+                </ul>
+                <div>
+                    <p class="contact-info">Contact 
+                        <span>info@temple_inn.com</span>
+                        <span>(027) 555-888</span>
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13500789.809101062!2d18.251486369681842!3d-34.297218343615434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c34a689d9ee1251%3A0xe85d630c1fa4e8a0!2sSouth%20Africa!5e0!3m2!1sen!2sus!4v1657264666395!5m2!1sen!2sus" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <hr>
+            <p class="lower-footer">
+                <span class="copywrite">
+                    &copy; <span id="year"></span>
+                </span>
+                <span>
+                   . The Temple Inn & Suites | <span>Lutho Masoka</span> | <span>WDD 230 Project</span> | <span>Last Modification: <span id="currentdate"></span></span>
+                </span>
+            </p>
+        </footer>
+    </body>
+</html>

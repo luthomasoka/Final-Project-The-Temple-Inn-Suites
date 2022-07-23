@@ -1,0 +1,79 @@
+@media (min-width: 64em) {
+    .bride-room {
+        align-self: end;
+    }
+
+    nav {
+        padding: .5rem 1rem;
+    }
+    
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+    
+    .navigation li {
+        flex: 1 1 auto;
+        display: block;
+    }
+    
+    .navigation a {
+        text-align: center;
+    }
+
+    #action {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: rgba(240, 240, 240, 0.8);
+        margin: 1em 2em;
+        width: 80%;
+        text-align: center;
+        height: 60%;
+    }
+      
+    #action button {
+        width: 10em;
+        background-color: #A44A3F;
+        font-size: 1.2em;
+    }
+    
+    ul {
+        padding: 0;
+    }
+    
+    #action li {
+        font-size: 1rem;
+        padding: .5em;
+        line-height: 1em;
+        text-align: center;
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    #action label {
+        margin-bottom: .5rem;
+        font-weight: bold;
+        width: .3rem;
+    }
+    
+    #action p {
+        font-size: .9rem;
+        font-weight: bold;
+        padding: .5em;
+        color: #A44A3F;
+        background-color: initial;
+        line-height: 2em;
+        margin: 0;
+        font-style: oblique;
+    }
+
+    #action input, #action select {
+        width: 25rem;
+        margin-bottom: 2rem;
+
+    }
+}

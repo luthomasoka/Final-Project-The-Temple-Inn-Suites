@@ -1,0 +1,16 @@
+@media (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #action label {
+        margin-bottom: .3rem;
+        font-weight: bold;
+        width: .10rem;
+    }
+
+    #action input {
+      width: 15rem;
+  }
+}

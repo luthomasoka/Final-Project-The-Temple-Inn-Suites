@@ -1,0 +1,52 @@
+{
+    "temples": [
+      {
+        "name": "Johannesburg, South Africa",
+        "address": "7 Jubilee Rd, Parktown",
+        "telephone": "(27) 11-645-1540",
+        "email": "joburgtemple@churchofchrist.com",
+        "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+        "history": "Dedicated 24 August 1985",
+        "ordinance_schedule": ["initiatories (Mon - Sat) - 10am, 2pm ,4pm", "Sealings - 1pm, 3pm, 4pm "],
+        "session_schedule": "Endowment (Mon-Sat) - 6am, 8am, 10am, 2pm, 4pm, 6pm ",
+        "temple_closure_schedule": ["Tuesday, 9 August 2022", "Monday, 15 August-Monday, 14 November 2022", "Friday, 16 December 2022", "Saturday 31 December 2022"],
+        "imageurl": "images/johannesburg-south-africa-temple-22475-main.jpg"
+      },
+      {
+        "name": "Durban, South Africa",
+        "address": "2 Izinga Drive, Izinga Ridge",
+        "telephone": "(27) 31-140-0240",
+        "email": "durbantemple@churchofchrist.com",
+        "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+        "history": "Dedicated 24 August 1985",
+        "ordinance_schedule": ["initiatories (Mon - Sat) - 10am, 2pm ,4pm", "Sealings - 1pm, 3pm, 4pm "],
+        "session_schedule": "Endowment (Mon-Sat) - 6am, 8am, 10am, 2pm, 4pm, 6pm ",
+        "temple_closure_schedule": ["Monday, 1 August 2022", "Saturday, 24 September 2022", "Friday, 16 December 2022","Friday, 24 December 2022", "Saturday 31 December 2022"],
+        "imageurl": "images/durban-south-africa-temple-7936.jpg"
+      },
+      {
+        "name": "Aba, Nigeria",
+        "address": "72-80 Okpu-Umuobo Rd, Aba",
+        "telephone": "(234) 80-3903-4810",
+        "email": "nigeriatemple@churchofchrist.com",
+        "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+        "history": "Dedicated 7 August 2005",
+        "ordinance_schedule": ["initiatories (Mon - Sat) - 10am, 2pm ,4pm", "Sealings - 1pm, 3pm, 4pm "],
+        "session_schedule": "Endowment (Mon-Sat) - 7am, 9am, 12am, 3pm, 5pm ",
+        "temple_closure_schedule": ["Saturday, 20 August 2022", "Monday, 5 September 2022 - Monday, 2 January 2023"],
+        "imageurl": "images/aba_nigeria_temple_.jpeg"
+      },
+      {
+        "name": "Kinshasa, Democratic Republic of the Congo",
+        "address": "50 Croisement Avenue de l’ OUA / Milolo Quartier Basoko GB Commune de Ngaliema",
+        "telephone": "(243) 815-590-060",
+        "email": "drctemple@churchofchrist.com",
+        "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+        "history": "Dedicated 14 April 2019",
+        "ordinance_schedule": ["initiatories (Mon - Sat) - 10am, 2pm", "Sealings - 1pm, 5pm"],
+        "session_schedule": "Endowment (Mon-Sat) - 7am, 9am, 3pm, 5pm ",
+        "temple_closure_schedule": "Monday, 17 October 2022 - Monday, 31 October 2022",
+        "imageurl": "images/kinshasa_temple.jpeg"
+      }
+    ]
+  }
